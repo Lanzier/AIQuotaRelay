@@ -8,8 +8,8 @@
   <title>AIQuotaRelay — AI 额度，一眼掌握</title>
   <link rel="icon" href="assets/AIQuotaRelay.ico" sizes="any">
   <link rel="apple-touch-icon" href="assets/AIQuotaRelay.png">
-  <link rel="stylesheet" href="styles-v2.css">
-  <script src="app-v2.js" defer></script>
+  <link rel="stylesheet" href="styles-v3.css">
+  <script src="app-v3.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">跳到主要内容</a>
@@ -57,20 +57,20 @@
     </div></section>
 
     <section class="section shell" id="demo">
-      <div class="section-heading"><div><span class="kicker" data-i18n="demoKicker">界面演示</span><h2 data-i18n="demoTitle">像系统组件一样自然</h2></div><p data-i18n="demoLead">紧凑信息留在任务栏，完整状态在需要时展开；不打断工作，也不隐藏关键数据。</p></div>
-      <div class="concept-grid">
-        <article class="concept-card taskbar-concept">
-          <div class="concept-label"><span data-i18n="demoCard1Title">任务栏 + 悬浮详情</span><i>01</i></div>
-          <div class="concept-workspace"><div class="concept-glow"></div><div class="mini-flyout"><header><span class="provider-badge small">C</span><b>Codex</b><em>CONNECTED</em></header><div><strong>73%</strong><span>Weekly quota</span></div><i class="mini-line"><u></u></i><footer><span>5.1M tokens</span><span>Reset in 3d 17h</span></footer></div><div class="mini-taskbar"><span>⊞</span><i></i><b><img src="assets/AIQuotaRelay.png" alt="" width="18" height="18">Codex&nbsp;&nbsp;<em>73%</em></b><small>11:40</small></div></div>
-          <p data-i18n="demoCard1Body">任务栏只保留最重要的数字；悬停后展开额度、成本、Token 与重置时间。</p>
-        </article>
-        <article class="concept-card dashboard-concept">
-          <div class="concept-label"><span data-i18n="demoCard2Title">统一 Dashboard</span><i>02</i></div>
-          <div class="dash-ui"><header><div><img src="assets/AIQuotaRelay.png" alt="" width="24" height="24"><b>Usage overview</b></div><span>LAST 7 DAYS⌄</span></header><div class="dash-stats"><div><span>TOTAL COST</span><strong>¥126.40</strong><small>↗ 8.4%</small></div><div><span>TOKENS</span><strong>18.7M</strong><small>7 days</small></div></div><div class="dash-chart"><i style="--h:32%"></i><i style="--h:48%"></i><i style="--h:40%"></i><i style="--h:67%"></i><i style="--h:58%"></i><i style="--h:82%"></i><i style="--h:72%"></i></div><div class="dash-providers"><span><b>Codex</b><i><u style="width:73%"></u></i><em>73%</em></span><span><b>Claude</b><i><u style="width:46%"></u></i><em>46%</em></span></div></div>
-          <p data-i18n="demoCard2Body">多平台额度、历史趋势与成本统计集中呈现，信息层级清楚、随时可查。</p>
-        </article>
+      <div class="section-heading"><div><span class="kicker" data-i18n="demoKicker">实际效果</span><h2 data-i18n="demoTitle">深色、浅色，都融入任务栏</h2></div><p data-i18n="demoLead">额度常驻任务栏，鼠标悬停立即展开完整明细。跟随 Windows 主题切换，不额外占用工作空间。</p></div>
+      <div class="actual-grid">
+        <figure class="actual-card">
+          <div class="actual-label"><span data-i18n="demoCard1Title">深色模式</span><i>DARK</i></div>
+          <div class="actual-stage actual-dark"><div class="actual-shot"><img src="assets/taskbar-actual-dark-v1.10.4.png" alt="AIQuotaRelay v1.10.4 深色模式实际运行截图" width="242" height="133" loading="lazy"></div></div>
+          <figcaption data-i18n="demoCard1Body">深色悬停卡片显示每周额度、今日消耗、Token 与重置卡状态。</figcaption>
+        </figure>
+        <figure class="actual-card">
+          <div class="actual-label"><span data-i18n="demoCard2Title">浅色模式</span><i>LIGHT</i></div>
+          <div class="actual-stage actual-light"><div class="actual-shot"><img src="assets/taskbar-actual-light-v1.10.4.png" alt="AIQuotaRelay v1.10.4 浅色模式实际运行截图" width="244" height="133" loading="lazy"></div></div>
+          <figcaption data-i18n="demoCard2Body">浅色主题保持相同信息结构，同时与系统外观自然融合。</figcaption>
+        </figure>
       </div>
-      <p class="image-note" data-i18n="imageNote">界面为产品概念演示，实际显示会因 Windows 主题与已连接服务而变化。</p>
+      <p class="image-note" data-i18n="imageNote">以上为 v1.10.4 实际运行截图，敏感账号信息已做模糊处理。</p>
     </section>
 
     <section class="section shell" id="features">
