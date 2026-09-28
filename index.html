@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AIQuotaRelay — 在 Windows 任务栏直接查看 AI 编程工具额度、余额与重置时间。">
+  <meta name="theme-color" content="#080b12">
+  <title>AIQuotaRelay — AI 额度，一眼掌握</title>
+  <link rel="icon" href="assets/AIQuotaRelay.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/AIQuotaRelay.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">跳到主要内容</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="AIQuotaRelay 首页"><img src="assets/AIQuotaRelay.png" alt="" width="36" height="36"><span>AIQuotaRelay</span></a>
+      <div class="nav-links">
+        <a href="#features" data-i18n="navFeatures">功能</a><a href="#platforms" data-i18n="navPlatforms">平台</a><a href="#privacy" data-i18n="navPrivacy">隐私</a><a href="#faq">FAQ</a>
+      </div>
+      <div class="nav-actions"><button class="lang-toggle" type="button" aria-label="Switch to English"><span aria-hidden="true">文</span><span id="langLabel">EN</span></button><a class="nav-download" href="#download" data-i18n="navDownload">下载</a></div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" id="top">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span><span data-i18n="eyebrow">为 Windows 任务栏而生</span></div>
+        <h1><span data-i18n="heroTitleA">AI 额度，</span><span class="gradient-text" data-i18n="heroTitleB">一眼掌握。</span></h1>
+        <p class="hero-lead" data-i18n="heroLead">不用切换窗口，也不用反复登录网页。在任务栏直接查看额度、余额与重置时间。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/Lanzier/AIQuotaRelay/releases/download/v1.10.4/AIQuotaRelay-v1.10.4-win-x64.zip" data-download><span data-i18n="downloadWin">下载 Windows 版</span><span aria-hidden="true">↓</span></a>
+          <a class="button secondary" href="#demo" data-i18n="seeDemo">查看实际效果</a>
+        </div>
+        <div class="hero-meta"><span>v1.10.4</span><span>Windows 10/11 · x64</span><span>MIT</span></div>
+      </div>
+      <div class="hero-visual" aria-label="AIQuotaRelay 任务栏展示">
+        <div class="window-glow"></div>
+        <div class="product-stage">
+          <div class="stage-top"><span class="stage-app"><img src="assets/AIQuotaRelay.png" alt="" width="24" height="24">AIQuotaRelay</span><span class="stage-live" data-i18n="liveData">真实产品界面</span></div>
+          <img class="hero-shot" src="assets/taskbar-hover-v1.10.4.png" alt="AIQuotaRelay 在 Windows 任务栏上显示 Codex 额度与悬停详情" width="336" height="160">
+          <div class="stage-caption"><strong data-i18n="hoverTitle">悬停即见详情</strong><span data-i18n="hoverBody">当前额度 · 今日成本 · 重置时间</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="产品特性摘要"><div class="shell trust-grid">
+      <span><b>01</b><i data-i18n="trustLocal">本地运行</i></span><span><b>02</b><i data-i18n="trustCloud">无需自建云端</i></span><span><b>03</b><i data-i18n="trustTelemetry">无遥测</i></span><span><b>04</b><i data-i18n="trustPlatforms">多平台聚合</i></span>
+    </div></section>
+
+    <section class="section shell" id="demo">
+      <div class="section-heading"><div><span class="kicker" data-i18n="demoKicker">真实界面</span><h2 data-i18n="demoTitle">信息就在你工作的地方</h2></div><p data-i18n="demoLead">紧凑的任务栏显示保持低干扰；将鼠标悬停，玻璃卡片立即展开完整状态。</p></div>
+      <div class="demo-grid">
+        <figure class="demo-card demo-main"><div class="shot-wrap checker"><img src="assets/taskbar-hover-v1.10.4.png" alt="AIQuotaRelay 任务栏悬停卡片真实截图" loading="lazy"></div><figcaption><b data-i18n="demoCard1Title">任务栏 + 悬停卡片</b><span data-i18n="demoCard1Body">真实 v1.10.4 产品截图，展示 Codex 周额度、进度与悬停明细。</span></figcaption></figure>
+        <figure class="demo-card"><div class="shot-wrap colorful"><img src="assets/hover-glass-colorful.png" alt="AIQuotaRelay 彩色桌面背景上的玻璃效果真实截图" loading="lazy"></div><figcaption><b data-i18n="demoCard2Title">系统级玻璃质感</b><span data-i18n="demoCard2Body">根据桌面环境自然融合，保持文字清晰而不过度抢眼。</span></figcaption></figure>
+      </div>
+      <p class="image-note" data-i18n="imageNote">以上均为本地验收时截取的真实产品画面，未伪造界面。</p>
+    </section>
+
+    <section class="section shell" id="features">
+      <div class="section-heading"><div><span class="kicker" data-i18n="featuresKicker">核心功能</span><h2 data-i18n="featuresTitle">少一次切换，多一分专注</h2></div></div>
+      <div class="feature-grid">
+        <article class="feature featured"><div class="icon">◔</div><h3 data-i18n="f1t">任务栏实时额度</h3><p data-i18n="f1b">将剩余额度、余额与重置时间固定在视线边缘，持续更新但不打扰。</p><div class="mini-meter"><span></span></div></article>
+        <article class="feature"><div class="icon">◇</div><h3 data-i18n="f2t">悬停玻璃卡片</h3><p data-i18n="f2b">无需点击即可展开更完整的额度、Token 与费用信息。</p></article>
+        <article class="feature"><div class="icon">▦</div><h3 data-i18n="f3t">统一 Dashboard</h3><p data-i18n="f3b">把多个 AI 服务的状态集中到一个清晰视图中。</p></article>
+        <article class="feature"><div class="icon">⌁</div><h3 data-i18n="f4t">历史与成本</h3><p data-i18n="f4b">回看使用趋势与成本记录，更从容地规划下一次高强度工作。</p></article>
+        <article class="feature"><div class="icon">◉</div><h3 data-i18n="f5t">智能通知</h3><p data-i18n="f5b">在额度偏低或即将重置时获得及时提醒。</p></article>
+        <article class="feature"><div class="icon">⌂</div><h3 data-i18n="f6t">隐私优先</h3><p data-i18n="f6b">应用在本地运行，不依赖我们的云端，也不采集遥测。</p></article>
+      </div>
+    </section>
+
+    <section class="section shell" id="platforms">
+      <div class="section-heading"><div><span class="kicker" data-i18n="platformKicker">支持平台</span><h2 data-i18n="platformTitle">你的工具，一处查看</h2></div><p data-i18n="platformLead">连接你已经在使用的 AI 编程与通用助手服务。</p></div>
+      <div class="platform-list">
+        <span><b>⌘</b>Codex</span><span><b>◒</b>Claude</span><span><b>GH</b>GitHub Copilot</span><span><b>⌁</b>Cursor</span><span><b>K</b>Kimi</span><span><b>𝕏</b>Grok</span><span><b>OC</b>OpenCode</span><span><b>C</b>Cline</span>
+      </div>
+    </section>
+
+    <section class="section shell privacy" id="privacy">
+      <div class="privacy-copy"><span class="kicker" data-i18n="privacyKicker">隐私说明</span><h2 data-i18n="privacyTitle">数据留在你的电脑</h2><p data-i18n="privacyLead">AIQuotaRelay 在本地读取和呈现你的额度信息。我们不运营用于收集这些数据的自建云服务，也不植入遥测或跟踪脚本。</p><ul><li data-i18n="p1">本地运行，本地配置</li><li data-i18n="p2">无自建数据中转云端</li><li data-i18n="p3">网站无分析、广告或第三方跟踪</li></ul></div>
+      <div class="privacy-visual" aria-hidden="true"><div class="shield">✓</div><div class="orbit o1"></div><div class="orbit o2"></div><span class="pv-label pv-a">LOCAL</span><span class="pv-label pv-b">NO TELEMETRY</span></div>
+    </section>
+
+    <section class="section shell" id="install">
+      <div class="section-heading"><div><span class="kicker" data-i18n="installKicker">安装</span><h2 data-i18n="installTitle">三步开始使用</h2></div></div>
+      <ol class="steps">
+        <li><span>1</span><div><h3 data-i18n="s1t">下载并解压</h3><p data-i18n="s1b">下载 ZIP 到本地，解压到你希望长期保留的文件夹。</p></div></li>
+        <li><span>2</span><div><h3 data-i18n="s2t">运行安装脚本</h3><p data-i18n="s2b">右键 Install.ps1，选择“使用 PowerShell 运行”。脚本会安装程序、创建桌面快捷方式并自动启动。</p></div></li>
+        <li><span>3</span><div><h3 data-i18n="s3t">连接你的服务</h3><p data-i18n="s3b">在本地完成所需平台配置，额度状态随后显示在任务栏。</p></div></li>
+      </ol>
+    </section>
+
+    <section class="section shell" id="download">
+      <div class="download-panel"><div><span class="kicker" data-i18n="downloadKicker">最新版本</span><h2>AIQuotaRelay <em>v1.10.4</em></h2><p data-i18n="downloadLead">适用于 Windows 10 2004+ x64；推荐 Windows 11 以获得更完整的视觉体验。</p><div class="release-facts"><span>ZIP · 86.2 MiB</span><span>Windows x64</span><span>MIT License</span></div></div>
+        <div class="download-side"><a class="button primary big" href="https://github.com/Lanzier/AIQuotaRelay/releases/download/v1.10.4/AIQuotaRelay-v1.10.4-win-x64.zip" data-download><span data-i18n="downloadZip">下载 v1.10.4 ZIP</span><span aria-hidden="true">↓</span></a><code data-i18n="shaPending">SHA-256：4434E5A92342923F077676F4A701AC4A521166985DE60795C6650BE7E17891C3</code></div>
+      </div>
+      <div class="warning"><span aria-hidden="true">!</span><p><strong data-i18n="unsignedTitle">关于 Windows 安全提示</strong><br><span data-i18n="unsignedBody">此版本未签名，Windows 可能显示“未知发布者”。请确认下载地址后，点击“更多信息”→“仍要运行”。本站不会声称该程序已签名。</span></p></div>
+    </section>
+
+    <section class="section shell faq" id="faq">
+      <div class="section-heading"><div><span class="kicker">FAQ</span><h2 data-i18n="faqTitle">常见问题</h2></div></div>
+      <div class="faq-list">
+        <details><summary data-i18n="q1">AIQuotaRelay 会上传我的使用数据吗？</summary><p data-i18n="a1">不会。应用在本地运行，不使用我们的云端中转，也不包含遥测。各服务的连接仍受其自身条款与接口约束。</p></details>
+        <details><summary data-i18n="q2">支持哪些 Windows 版本？</summary><p data-i18n="a2">支持 Windows 10 2004 及以上版本的 x64 设备，推荐使用 Windows 11。</p></details>
+        <details><summary data-i18n="q3">为什么 Windows 显示“未知发布者”？</summary><p data-i18n="a3">当前安装包未使用受信任的代码签名证书。确认文件来自本页列出的 GitHub Releases 地址后，可点击“更多信息”→“仍要运行”。</p></details>
+        <details><summary data-i18n="q4">软件是开源的吗？</summary><p data-i18n="a4">本项目保留 MIT 许可与原作者署名。AIQuotaRelay 基于 Zied Kallel 的 TaskbarQuota，详情见 LICENSE 与 NOTICE。</p></details>
+        <details><summary data-i18n="q5">需要一直打开 Dashboard 吗？</summary><p data-i18n="a5">不需要。日常状态可直接在任务栏查看，需要深入分析时再打开 Dashboard。</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="shell footer-grid"><div><a class="brand" href="#top"><img src="assets/AIQuotaRelay.png" alt="" width="32" height="32"><span>AIQuotaRelay</span></a><p data-i18n="footerTag">把 AI 额度留在视线内，把专注留给真正重要的事。</p></div><div class="footer-links"><a href="#features" data-i18n="navFeatures">功能</a><a href="#download" data-i18n="navDownload">下载</a><a href="license.html">LICENSE</a><a href="notice.html">NOTICE</a></div></div><div class="shell footer-bottom"><p>Based on TaskbarQuota by Zied Kallel, licensed under MIT.</p><p>AIQuotaRelay · v1.10.4</p></div></footer>
+</body>
+</html>
